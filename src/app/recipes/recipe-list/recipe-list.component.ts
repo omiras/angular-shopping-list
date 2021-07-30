@@ -13,6 +13,7 @@ export class RecipeListComponent implements OnInit {
 
   constructor() { 
     this.recipes.push(new Recipe('A Test Recipe', 'Simply a Test', 'https://www.adobe.com/express/create/media_101046379bb5a3c0a3366cc3b0170c9e8244f753d.png'));
+    this.recipes.push(new Recipe('A Test Recipe', 'Simply a Test', 'https://www.adobe.com/express/create/media_101046379bb5a3c0a3366cc3b0170c9e8244f753d.png'));
   }
 
   ngOnInit(): void {
