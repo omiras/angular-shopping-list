@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'course-project';
+  menuItem: string = 'recipes';
+
+  onSelectedMenuItem(menuItem: string) {
+    this.menuItem = menuItem;
+  }
 }
